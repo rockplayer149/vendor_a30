@@ -28,5 +28,3 @@ android_app_import {
 		enabled: false,
 	},
 }
-
-

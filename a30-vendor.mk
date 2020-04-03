@@ -23,18 +23,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a30/proprietary/vendor/bin/argosd:$(TARGET_COPY_OUT_VENDOR)/bin/argosd \
     vendor/samsung/a30/proprietary/vendor/bin/cass:$(TARGET_COPY_OUT_VENDOR)/bin/cass \
     vendor/samsung/a30/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
-    vendor/samsung/a30/proprietary/vendor/bin/dumpsys:$(TARGET_COPY_OUT_VENDOR)/bin/dumpsys \
-    vendor/samsung/a30/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service \
-    vendor/samsung/a30/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
-    vendor/samsung/a30/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service \
     vendor/samsung/a30/proprietary/vendor/bin/hw/android.hardware.health@2.0-service.samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.0-service.samsung \
-    vendor/samsung/a30/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service \
-    vendor/samsung/a30/proprietary/vendor/bin/hw/android.hardware.power@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.power@1.0-service \
-    vendor/samsung/a30/proprietary/vendor/bin/hw/android.hardware.thermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@1.0-service \
-    vendor/samsung/a30/proprietary/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
     vendor/samsung/a30/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \
     vendor/samsung/a30/proprietary/vendor/bin/hw/mfgloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mfgloader \
-    vendor/samsung/a30/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
     vendor/samsung/a30/proprietary/vendor/bin/hw/vendor.samsung.hardware.base@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.base@1.0-service \
     vendor/samsung/a30/proprietary/vendor/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@3.0-service \
     vendor/samsung/a30/proprietary/vendor/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service \
@@ -89,19 +80,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a30/proprietary/vendor/etc/carrier/VMU/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/VMU/permissions/android.hardware.telephony.cdma.xml \
     vendor/samsung/a30/proprietary/vendor/etc/carrier/VZW/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/VZW/permissions/android.hardware.telephony.cdma.xml \
     vendor/samsung/a30/proprietary/vendor/etc/carrier/XAS/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/XAS/permissions/android.hardware.telephony.cdma.xml \
-    vendor/samsung/a30/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/a30/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
-    vendor/samsung/a30/proprietary/vendor/etc/fstab.exynos7904:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.exynos7904 \
     vendor/samsung/a30/proprietary/vendor/etc/gnss/ca.pem:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/ca.pem \
     vendor/samsung/a30/proprietary/vendor/etc/gnss/gps.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cfg \
     vendor/samsung/a30/proprietary/vendor/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hearing_aid_audio_policy_configuration.xml \
-    vendor/samsung/a30/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service.rc \
-    vendor/samsung/a30/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
-    vendor/samsung/a30/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
     vendor/samsung/a30/proprietary/vendor/etc/init/android.hardware.health@2.0-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.0-service.samsung.rc \
-    vendor/samsung/a30/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.rc \
-    vendor/samsung/a30/proprietary/vendor/etc/init/android.hardware.power@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.power@1.0-service.rc \
-    vendor/samsung/a30/proprietary/vendor/etc/init/android.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@1.0-service.rc \
     vendor/samsung/a30/proprietary/vendor/etc/init/icd_over_five_vendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/icd_over_five_vendor.rc \
     vendor/samsung/a30/proprietary/vendor/etc/init/init.baseband.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.baseband.rc \
     vendor/samsung/a30/proprietary/vendor/etc/init/init.exynos7904.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.exynos7904.rc \
@@ -114,7 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a30/proprietary/vendor/etc/init/pa_daemon_teegris.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pa_daemon_teegris.rc \
     vendor/samsung/a30/proprietary/vendor/etc/init/secure_storage_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/secure_storage_daemon.rc \
     vendor/samsung/a30/proprietary/vendor/etc/init/snap_utility.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snap_utility.rc \
-    vendor/samsung/a30/proprietary/vendor/etc/init/teegris_v3.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/teegris_v3.rc \
     vendor/samsung/a30/proprietary/vendor/etc/init/vendor.samsung.hardware.base@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.base@1.0-service.rc \
     vendor/samsung/a30/proprietary/vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc \
     vendor/samsung/a30/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc \
@@ -133,11 +115,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a30/proprietary/vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc \
     vendor/samsung/a30/proprietary/vendor/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc \
     vendor/samsung/a30/proprietary/vendor/etc/init/vendor.samsung_slsi.hardware.configstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung_slsi.hardware.configstore@1.0-service.rc \
-    vendor/samsung/a30/proprietary/vendor/etc/init/vk_teegris.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vk_teegris.rc \
     vendor/samsung/a30/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
     vendor/samsung/a30/proprietary/vendor/etc/init/wifi_slsi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_slsi.rc \
     vendor/samsung/a30/proprietary/vendor/etc/init/wsm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wsm-service.rc \
-    vendor/samsung/a30/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/samsung/a30/proprietary/vendor/etc/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml \
     vendor/samsung/a30/proprietary/vendor/etc/mtu-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtu-conf.xml \
     vendor/samsung/a30/proprietary/vendor/etc/pdpcnt-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pdpcnt-conf.xml \
@@ -148,7 +128,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a30/proprietary/vendor/etc/plmn_delta_usacdma.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_usacdma.bin \
     vendor/samsung/a30/proprietary/vendor/etc/plmn_delta_usagsm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_usagsm.bin \
     vendor/samsung/a30/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
-    vendor/samsung/a30/proprietary/vendor/etc/public.libraries.txt.backup:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt.backup \
     vendor/samsung/a30/proprietary/vendor/etc/saiv/fd/fast_face_detect_model_full_angle_16_CHAR.dat:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/fd/fast_face_detect_model_full_angle_16_CHAR.dat \
     vendor/samsung/a30/proprietary/vendor/etc/saiv/gae/MeanFea.bin:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/gae/MeanFea.bin \
     vendor/samsung/a30/proprietary/vendor/etc/saiv/gae/ParaFea.bin:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/gae/ParaFea.bin \
@@ -184,7 +163,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a30/proprietary/vendor/firmware/setfile_3p8sp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3p8sp.bin \
     vendor/samsung/a30/proprietary/vendor/firmware/setfile_5e9.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_5e9.bin \
     vendor/samsung/a30/proprietary/vendor/firmware/setfile_imx471.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx471.bin \
-    vendor/samsung/a30/proprietary/vendor/lib/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-util.so \
     vendor/samsung/a30/proprietary/vendor/lib/android.hardware.audio.common@2.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@2.0-util.so \
     vendor/samsung/a30/proprietary/vendor/lib/android.hardware.audio.common@4.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@4.0-util.so \
     vendor/samsung/a30/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
@@ -229,12 +207,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a30/proprietary/vendor/lib/libSamsungPostProcessConvertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPostProcessConvertor.so \
     vendor/samsung/a30/proprietary/vendor/lib/libSonyIMX471RmscLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX471RmscLibrary.so \
     vendor/samsung/a30/proprietary/vendor/lib/lib_SamsungRec_07001.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SamsungRec_07001.so \
-    vendor/samsung/a30/proprietary/vendor/lib/lib_SoundAlive_3DPosition_ver202.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_3DPosition_ver202.so \
-    vendor/samsung/a30/proprietary/vendor/lib/lib_SoundAlive_AlbumArt_ver105.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_AlbumArt_ver105.so \
-    vendor/samsung/a30/proprietary/vendor/lib/lib_SoundAlive_SRC384_ver320.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_SRC384_ver320.so \
-    vendor/samsung/a30/proprietary/vendor/lib/lib_SoundAlive_play_plus_ver400.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_play_plus_ver400.so \
     vendor/samsung/a30/proprietary/vendor/lib/lib_SoundBooster_ver1000.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundBooster_ver1000.so \
-    vendor/samsung/a30/proprietary/vendor/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_soundaliveresampler.so \
     vendor/samsung/a30/proprietary/vendor/lib/libacryl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacryl.so \
     vendor/samsung/a30/proprietary/vendor/lib/libapex_cmn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapex_cmn.so \
     vendor/samsung/a30/proprietary/vendor/lib/libapex_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapex_utils.so \
@@ -244,7 +217,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a30/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
     vendor/samsung/a30/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
     vendor/samsung/a30/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
-    vendor/samsung/a30/proprietary/vendor/lib/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcsc.so \
     vendor/samsung/a30/proprietary/vendor/lib/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdeccfg.so \
     vendor/samsung/a30/proprietary/vendor/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libegis_fp_normal_sensor_test.so \
     vendor/samsung/a30/proprietary/vendor/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera3.so \
@@ -447,9 +419,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a30/proprietary/vendor/lib64/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCv.camera.samsung.so \
     vendor/samsung/a30/proprietary/vendor/lib64/libSEF.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSEF.quram.so \
     vendor/samsung/a30/proprietary/vendor/lib64/libSonyIMX471RmscLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX471RmscLibrary.so \
-    vendor/samsung/a30/proprietary/vendor/lib64/lib_SoundAlive_3DPosition_ver202.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundAlive_3DPosition_ver202.so \
-    vendor/samsung/a30/proprietary/vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundAlive_AlbumArt_ver105.so \
-    vendor/samsung/a30/proprietary/vendor/lib64/lib_SoundAlive_play_plus_ver400.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundAlive_play_plus_ver400.so \
     vendor/samsung/a30/proprietary/vendor/lib64/lib_SoundBooster_ver1000.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundBooster_ver1000.so \
     vendor/samsung/a30/proprietary/vendor/lib64/libacryl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacryl.so \
     vendor/samsung/a30/proprietary/vendor/lib64/libarac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarac.so \
@@ -612,11 +581,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a30/proprietary/vendor/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so \
     vendor/samsung/a30/proprietary/vendor/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so \
     vendor/samsung/a30/proprietary/vendor/lib64/vndk/libcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vndk/libcrypto.so \
-    vendor/samsung/a30/proprietary/vendor/overlay/GoogleExtServicesConfigOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/GoogleExtServicesConfigOverlay.apk \
-    vendor/samsung/a30/proprietary/vendor/overlay/GooglePermissionControllerFrameworkOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/GooglePermissionControllerFrameworkOverlay.apk \
-    vendor/samsung/a30/proprietary/vendor/overlay/GooglePermissionControllerOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/GooglePermissionControllerOverlay.apk \
-    vendor/samsung/a30/proprietary/vendor/overlay/NavigationBarModeSamsungGestural/NavigationBarModeSamsungGesturalOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/NavigationBarModeSamsungGestural/NavigationBarModeSamsungGesturalOverlay.apk \
-    vendor/samsung/a30/proprietary/vendor/overlay/NavigationBarModeSamsungGesturalNoHint/NavigationBarModeSamsungGesturalNoHintOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/NavigationBarModeSamsungGesturalNoHint/NavigationBarModeSamsungGesturalNoHintOverlay.apk \
     vendor/samsung/a30/proprietary/vendor/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn.prototxt:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn.prototxt \
     vendor/samsung/a30/proprietary/vendor/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn_light.caffemodel:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn_light.caffemodel \
     vendor/samsung/a30/proprietary/vendor/saiv/image_understanding/db/aic_detector/aic_detector_cnn.prototxt:$(TARGET_COPY_OUT_VENDOR)/saiv/image_understanding/db/aic_detector/aic_detector_cnn.prototxt \
